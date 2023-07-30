@@ -1,0 +1,57 @@
+    Algoritmo "Agência de Viagens"
+// Descrição   : Cadastro e consulta de cliente e destinos.
+// Autor(a)    : Rafael Nascimento
+// Data atual  : 30/07/2023
+Var
+   // Seção de Declarações das variáveis
+
+   opcoesMaisDestino, i, quantidadeDestino: inteiro
+
+   cadastroCliente: caractere
+   primeiroDestino: caractere
+   cadastroDestino: vetor [1..999] de caractere
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+   escreval("Bem-vindo(a) a agência de viagens!")
+   escreval("Por favor, preencha as informações abaixo:")
+
+   escreva("Digite seu nome: ")
+   leia(cadastroCliente)
+   escreva("Qual será seu destino? ")
+   leia(primeiroDestino)
+
+   escreval("Cadastro realizado com sucesso!")
+
+   enquanto opcoesMaisDestino <> 3 faca
+      escreval("Deseja cadastrar mais destinos?")
+      escreval("1- Adicionar mais destinos")
+      escreval("2- Revisar destinos")
+      escreval("3- Finalizar")
+      leia(opcoesMaisDestino)
+
+      se opcoesMaisDestino = 1 entao
+         escreva("Quantos destinos você deseja adicionar? ")
+         leia(quantidadeDestino)
+
+         para i de 1 ate quantidadeDestino passo 1 faca
+            escreva("Digite o destino: ")
+            leia(cadastroDestino[i+1])
+         fimpara
+      senao
+         se opcoesMaisDestino = 2 entao
+            escreval(cadastroCliente,", seus destinos cadastrados são:")
+            escreva(primeiroDestino)
+            para i de 1 ate quantidadeDestino +1 passo 1 faca
+               escreval(cadastroDestino[i])
+            fimpara
+         senao
+            escreval("Finalizado com sucesso!")
+         fimse
+     fimse
+
+   fimEnquanto
+
+Fimalgoritmo
