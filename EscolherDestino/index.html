@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>destino</title>
+    <link rel="stylesheet" href="/EscolherDestino/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="/index.html"><img class="logo" src="/imagens/logo1.jpg" alt="imagem logo"> </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav" >
+                <a class="nav-link botton1" aria-current="page" href="/index.html">Home</a>
+              <a class="nav-link botton" aria-current="page" href="/EscolherDestino/index.html">Destino</a>
+              <a class="nav-link botton2" href="/promocionais/index.html">Promocionais</a>
+              <a class="nav-link botton3" href="/Contato/index.html">Contato</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+    <main>
+
+        <div class="destino">
+            <h1>Escolha seu destino</h1>
+            <div class="idaEVolta">
+                <div class="origem">
+                    <img src="/imagens/airplane1.jpg" alt="icone avião decolando">
+                    <input class="textOrigem" type="text" placeholder="Qual seu estado atual?">
+                </div>
+                <div class="destinoo">
+                    <img src="/imagens/airplane2.jpg" alt="ícone avião pousando">
+                    <input class="textOrigem" type="text" placeholder="Para onde você quer ir?">
+                </div>
+            </div>
+
+            <p>Escolha data de ida e volta</p>
+            <div class="data"> 
+                <div class="data1">
+                    <input class="date" type="date" name="Data de ida">  
+                </div>
+                <div class="data2">
+                    <input class="date" type="date" name="Data de volta">
+                </div>
+            </div>
+
+            <div class="quarto">
+                <img src="/imagens/customer.jpg" alt="ícone usuário">
+                <input class="number" type="number" name="" placeholder="Quantos quartos deseja?">
+            </div>
+            <!--<div class="contato">
+                <input class="email" type="email" name="" placeholder="Digite aqui seu email">
+            </div>-->
+            <a class="botton_finally" href="/login/index.html">Pronto!</a>
+        </div>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
