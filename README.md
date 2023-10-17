@@ -55,7 +55,7 @@ Link de acesso: https://agencia-find-2.netlify.app/
 ## Apresentação rápida
 
 >[!NOTE]
-Se estiver pelo celular, caso o vídeo não carregue, pressione e segure a tela com o dedo posicionado em cima do vídeo. Abrirá algumas opções de visualização. Escolha a do seu interesse.
+Se estiver pelo celular, caso o vídeo não carregue, pressione e segure a tela com o dedo posicionado em cima do vídeo. Você verá algumas opções de visualização. Escolha a do seu interesse.
 - Ative o som 🔊
 
 https://github.com/RafaelNasA/Projeto-Agencia/assets/124536677/1fd7116d-0e25-4bea-a5d0-3cb49d1cc980
