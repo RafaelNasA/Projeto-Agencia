@@ -22,7 +22,7 @@ Você verá, além das pastas comuns contendo tipagem e estilização, _uma past
 
 ## Sobre a FIND
 
-A Find é uma representação do que pode vir a ser uma agência de viagens voltada para viciados em aventura, descobertas e liberdade!
+A Find é uma representação do que pode vir a ser uma agência de viagens voltada para apaixonados em aventura, descobertas e liberdade!
 
 --------------
 ## Tecnologias ultilizadas
@@ -54,6 +54,7 @@ Link de acesso: https://agencia-find-2.netlify.app/
 
 ## Apresentação rápida
 
+![!NOTE] Se estiver pelo celular, caso o vídeo não carregue, pressione e segure a tela com o dedo posicionado em cima do vídeo. Abrirá algumas opções de visualização. Escolha a do seu interesse.
 - Ative o som 🔊
 
 https://github.com/RafaelNasA/Projeto-Agencia/assets/124536677/1fd7116d-0e25-4bea-a5d0-3cb49d1cc980
